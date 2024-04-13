@@ -1,0 +1,48 @@
+.userList__heading{
+    font-size: 24px;
+    font-weight: 600;
+}
+.userList__inputBox{
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px 0px;
+    border: 1px solid rgb(221, 217, 217);
+    border-radius: 6px;
+    & > input {
+        width: 70%;
+        margin-left: 10px;
+        border: none;
+        outline: none;
+        font-size: 18px;
+    }
+    & > input::placeholder {
+        font-size: 18px;
+    }
+}
+.userList__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px;
+    &__leftSideInfo{
+        display: flex;
+        align-items: center;
+        & > span {
+            margin-left: 15px;
+            font-size: 20px;
+            font-weight: 600;
+        }
+    }
+    & > button{
+        border: none;
+        border-radius: 6px;
+        padding: 10px;
+        font-size: 16px;
+        color: white;
+        background-color: rgb(26, 26, 26);
+        cursor: pointer;
+    }
+}
+.userList__container:first-child {
+    margin-top: 40px;
+}
